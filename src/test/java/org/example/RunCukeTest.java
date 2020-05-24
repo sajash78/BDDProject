@@ -19,3 +19,4 @@ public class RunCukeTest{
 
         }
         //saj
+//assertion added
