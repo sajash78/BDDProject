@@ -18,3 +18,4 @@ plugin = {"html:target/cucumber-html-report",
 public class RunCukeTest{
 
         }
+        //JU
