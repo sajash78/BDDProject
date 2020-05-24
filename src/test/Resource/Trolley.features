@@ -1,0 +1,18 @@
+Feature:
+  Background:
+    Given user is on the homepage of argos website
+    When user wants to search for product
+    Then user should see all the relavent searched products.
+
+    Given  user is on the result page of the argos website
+    When  user click on the Running filter
+    Then user should see all the products assostiated with runnning filter
+
+    Given user is on the result page of filter
+    When user click on armband
+    Then user should able to see that product to add in basket page
+
+    Scenario: add to trolley
+      Given user in on the armband page
+      When  user clicks on add to trolley
+      Then user should able to see pop up window to add to trolley
